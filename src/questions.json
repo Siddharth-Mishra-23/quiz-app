@@ -1,0 +1,128 @@
+[
+  {
+    "questionText": "What is the capital of France?",
+    "answerOptions": [
+      { "answerText": "Berlin", "isCorrect": false },
+      { "answerText": "Madrid", "isCorrect": false },
+      { "answerText": "Paris", "isCorrect": true },
+      { "answerText": "Rome", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Who is the CEO of Tesla?",
+    "answerOptions": [
+      { "answerText": "Jeff Bezos", "isCorrect": false },
+      { "answerText": "Elon Musk", "isCorrect": true },
+      { "answerText": "Bill Gates", "isCorrect": false },
+      { "answerText": "Tony Stark", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "The iPhone was created by which company?",
+    "answerOptions": [
+      { "answerText": "Apple", "isCorrect": true },
+      { "answerText": "Intel", "isCorrect": false },
+      { "answerText": "Microsoft", "isCorrect": false },
+      { "answerText": "Google", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "How many states are in the United States?",
+    "answerOptions": [
+      { "answerText": "48", "isCorrect": false },
+      { "answerText": "49", "isCorrect": false },
+      { "answerText": "50", "isCorrect": true },
+      { "answerText": "51", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "What is the highest mountain in the world?",
+    "answerOptions": [
+      { "answerText": "Mount Kilimanjaro", "isCorrect": false },
+      { "answerText": "Mount Everest", "isCorrect": true },
+      { "answerText": "Mount Fuji", "isCorrect": false },
+      { "answerText": "Mount Logan", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "What is the largest ocean on Earth?",
+    "answerOptions": [
+      { "answerText": "Atlantic Ocean", "isCorrect": false },
+      { "answerText": "Indian Ocean", "isCorrect": false },
+      { "answerText": "Arctic Ocean", "isCorrect": false },
+      { "answerText": "Pacific Ocean", "isCorrect": true }
+    ]
+  },
+  {
+    "questionText": "Which planet is known as the 'Red Planet'?",
+    "answerOptions": [
+      { "answerText": "Jupiter", "isCorrect": false },
+      { "answerText": "Mars", "isCorrect": true },
+      { "answerText": "Saturn", "isCorrect": false },
+      { "answerText": "Venus", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "What is the main ingredient in guacamole?",
+    "answerOptions": [
+      { "answerText": "Tomato", "isCorrect": false },
+      { "answerText": "Avocado", "isCorrect": true },
+      { "answerText": "Onion", "isCorrect": false },
+      { "answerText": "Lemon", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "What is the currency of Japan?",
+    "answerOptions": [
+      { "answerText": "Yuan", "isCorrect": false },
+      { "answerText": "Dollar", "isCorrect": false },
+      { "answerText": "Yen", "isCorrect": true },
+      { "answerText": "Euro", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Who wrote 'Hamlet'?",
+    "answerOptions": [
+      { "answerText": "Charles Dickens", "isCorrect": false },
+      { "answerText": "William Shakespeare", "isCorrect": true },
+      { "answerText": "Jane Austen", "isCorrect": false },
+      { "answerText": "Mark Twain", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "In which year did the Titanic sink?",
+    "answerOptions": [
+      { "answerText": "1905", "isCorrect": false },
+      { "answerText": "1912", "isCorrect": true },
+      { "answerText": "1918", "isCorrect": false },
+      { "answerText": "1923", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "What is the capital of Australia?",
+    "answerOptions": [
+      { "answerText": "Sydney", "isCorrect": false },
+      { "answerText": "Melbourne", "isCorrect": false },
+      { "answerText": "Canberra", "isCorrect": true },
+      { "answerText": "Perth", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "What is the largest animal in the world?",
+    "answerOptions": [
+      { "answerText": "Elephant", "isCorrect": false },
+      { "answerText": "Blue Whale", "isCorrect": true },
+      { "answerText": "Giraffe", "isCorrect": false },
+      { "answerText": "Great White Shark", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "How many bones are in the adult human body?",
+    "answerOptions": [
+      { "answerText": "206", "isCorrect": true },
+      { "answerText": "215", "isCorrect": false },
+      { "answerText": "198", "isCorrect": false },
+      { "answerText": "200", "isCorrect": false }
+    ]
+  }
+]
