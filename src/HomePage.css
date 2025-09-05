@@ -1,0 +1,65 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  color: #fff;
+}
+
+.home-content {
+  background-color: #1e1e1e;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  max-width: 600px;
+  width: 90%;
+  box-sizing: border-box;
+}
+
+.home-content h1 {
+  margin-bottom: 20px;
+}
+
+.home-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  min-height: 5em; /* Prevent layout shift during typing */
+}
+
+/* Permanent glitter effect for the heading */
+.heading-glitter-permanent {
+  text-shadow: 0 0 10px #00bcd4, 0 0 20px #00bcd4, 0 0 30px #00bcd4;
+}
+
+/* Twinkling animation for the description */
+@keyframes glitter-twinkle {
+  0% { text-shadow: 0 0 4px rgba(255,255,255,0.8); }
+  50% { text-shadow: 0 0 10px rgba(0,255,255,0.8), 0 0 20px rgba(0,255,255,0.8); }
+  100% { text-shadow: 0 0 4px rgba(255,255,255,0.8); }
+}
+
+.glitter-text {
+  animation: glitter-twinkle 1.5s infinite alternate;
+}
+
+/* The button styling with a transparent, glowing effect */
+.start-button {
+  background-color: transparent;
+  color: #00bcd4;
+  border: 2px solid #00bcd4;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 188, 212, 0.5);
+  position: relative;
+  overflow: hidden;
+}
+
+.start-button:hover {
+  background-color: rgba(0, 188, 212, 0.1);
+  box-shadow: 0 0 20px #00bcd4, 0 0 40px #00bcd4;
+  transform: scale(1.05);
+}

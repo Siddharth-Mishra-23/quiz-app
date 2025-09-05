@@ -61,6 +61,7 @@
   background-color: #00a4b8;
 }
 
+/* The style for the high score box and its glitter effect */
 .high-score-container {
   background-color: #2e2e2e;
   border: 1px solid #444;
@@ -69,12 +70,12 @@
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
-  box-shadow: 0 0 10px #00bcd4, 0 0 20px #00bcd4; /* Subtle, glowing effect */
+  box-shadow: 0 0 10px rgba(0, 188, 212, 0.5);
   transition: all 0.3s ease;
 }
 
 .high-score-container:hover {
-  box-shadow: 0 0 15px #00bcd4, 0 0 30px #00bcd4, 0 0 45px #00bcd4; /* More intense glow on hover */
+  box-shadow: 0 0 20px #00bcd4, 0 0 40px #00bcd4;
 }
 
 .high-score {

@@ -24,22 +24,24 @@ const ResultsPage = () => {
     return (
       <div className="results-container">
         <h1>No results found. Please start the quiz.</h1>
-        <button onClick={() => navigate('/')}>Restart Quiz</button>
+        <button onClick={() => navigate('/quiz')}>Restart Quiz</button>
       </div>
     );
   }
 
   const handleRestartQuiz = () => {
-    navigate('/');
+    navigate('/quiz');
   };
 
   return (
     <div className="results-container">
       <h1>Quiz Results</h1>
       <p>You scored {score} out of {questions.length}</p>
+      
       <div className="high-score-container">
-  <p className="high-score">High Score: {highScore}</p>
-</div>
+        <p className="high-score">High Score: {highScore}</p>
+      </div>
+
       <div className="summary-section">
         {questions.map((question, index) => {
           const userAnswer = userAnswers[index];
